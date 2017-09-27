@@ -131,7 +131,7 @@ app.use(function (err, req, res, next) {
         res.send(err);
     }
 });
-
-app.listen(3000, function () {
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
     console.log('Blog Service listening on port 3000!')
 });
