@@ -20,7 +20,7 @@ app.use(function (req, res, next) {
 });
 
 //Define the configuration of the database
-var dbPath = "mongodb://localhost/blogdb";
+var dbPath = "mongodb://suhas:welcome1@ds153494.mlab.com:53494/blogdb";
 
 //Command to connect with database
 db = mongoose.connect(dbPath);
